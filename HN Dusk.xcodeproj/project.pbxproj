@@ -1,0 +1,971 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		035053772C84F79500BA996C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035053762C84F79500BA996C /* AppDelegate.swift */; };
+		035053792C84F79500BA996C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035053782C84F79500BA996C /* SceneDelegate.swift */; };
+		0350537C2C84F79500BA996C /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 0350537B2C84F79500BA996C /* Base */; };
+		0350537F2C84F79500BA996C /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 0350537E2C84F79500BA996C /* Base */; };
+		035053882C84F79500BA996C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035053872C84F79500BA996C /* AppDelegate.swift */; };
+		0350538B2C84F79500BA996C /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 0350538A2C84F79500BA996C /* Base */; };
+		035053922C84F79500BA996C /* HN Dusk Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 035053912C84F79500BA996C /* HN Dusk Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0350539C2C84F79500BA996C /* HN Dusk Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 0350539B2C84F79500BA996C /* HN Dusk Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		035053A22C84F79500BA996C /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 0350535E2C84F79300BA996C /* Base */; };
+		035053A32C84F79500BA996C /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 0350535E2C84F79300BA996C /* Base */; };
+		035053A42C84F79500BA996C /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0350535F2C84F79300BA996C /* Icon.png */; };
+		035053A52C84F79500BA996C /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0350535F2C84F79300BA996C /* Icon.png */; };
+		035053A62C84F79500BA996C /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 035053602C84F79300BA996C /* Style.css */; };
+		035053A72C84F79500BA996C /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 035053602C84F79300BA996C /* Style.css */; };
+		035053A82C84F79500BA996C /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 035053612C84F79300BA996C /* Script.js */; };
+		035053A92C84F79500BA996C /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 035053612C84F79300BA996C /* Script.js */; };
+		035053AA2C84F79500BA996C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035053622C84F79300BA996C /* ViewController.swift */; };
+		035053AB2C84F79500BA996C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035053622C84F79300BA996C /* ViewController.swift */; };
+		035053AC2C84F79500BA996C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 035053632C84F79500BA996C /* Assets.xcassets */; };
+		035053AD2C84F79500BA996C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 035053632C84F79500BA996C /* Assets.xcassets */; };
+		035053AE2C84F79500BA996C /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035053652C84F79500BA996C /* SafariWebExtensionHandler.swift */; };
+		035053AF2C84F79500BA996C /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035053652C84F79500BA996C /* SafariWebExtensionHandler.swift */; };
+		035053B02C84F79500BA996C /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 035053672C84F79500BA996C /* _locales */; };
+		035053B12C84F79500BA996C /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 035053672C84F79500BA996C /* _locales */; };
+		035053B22C84F79500BA996C /* images in Resources */ = {isa = PBXBuildFile; fileRef = 035053682C84F79500BA996C /* images */; };
+		035053B32C84F79500BA996C /* images in Resources */ = {isa = PBXBuildFile; fileRef = 035053682C84F79500BA996C /* images */; };
+		035053B42C84F79500BA996C /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 035053692C84F79500BA996C /* manifest.json */; };
+		035053B52C84F79500BA996C /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 035053692C84F79500BA996C /* manifest.json */; };
+		035053B62C84F79500BA996C /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 0350536A2C84F79500BA996C /* background.js */; };
+		035053B72C84F79500BA996C /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 0350536A2C84F79500BA996C /* background.js */; };
+		035053B82C84F79500BA996C /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 0350536B2C84F79500BA996C /* content.js */; };
+		035053B92C84F79500BA996C /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 0350536B2C84F79500BA996C /* content.js */; };
+		035053BA2C84F79500BA996C /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 0350536C2C84F79500BA996C /* popup.html */; };
+		035053BB2C84F79500BA996C /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 0350536C2C84F79500BA996C /* popup.html */; };
+		035053BC2C84F79500BA996C /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 0350536D2C84F79500BA996C /* popup.css */; };
+		035053BD2C84F79500BA996C /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 0350536D2C84F79500BA996C /* popup.css */; };
+		035053BE2C84F79500BA996C /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 0350536E2C84F79500BA996C /* popup.js */; };
+		035053BF2C84F79500BA996C /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 0350536E2C84F79500BA996C /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		035053932C84F79500BA996C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 035053572C84F79300BA996C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 035053902C84F79500BA996C;
+			remoteInfo = "HN Dusk Extension (iOS)";
+		};
+		0350539D2C84F79500BA996C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 035053572C84F79300BA996C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0350539A2C84F79500BA996C;
+			remoteInfo = "HN Dusk Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		035053C52C84F79500BA996C /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				035053922C84F79500BA996C /* HN Dusk Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		035053CC2C84F79500BA996C /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0350539C2C84F79500BA996C /* HN Dusk Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0350535E2C84F79300BA996C /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		0350535F2C84F79300BA996C /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		035053602C84F79300BA996C /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		035053612C84F79300BA996C /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		035053622C84F79300BA996C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		035053632C84F79500BA996C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		035053652C84F79500BA996C /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		035053672C84F79500BA996C /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		035053682C84F79500BA996C /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		035053692C84F79500BA996C /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		0350536A2C84F79500BA996C /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		0350536B2C84F79500BA996C /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		0350536C2C84F79500BA996C /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		0350536D2C84F79500BA996C /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		0350536E2C84F79500BA996C /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		035053732C84F79500BA996C /* HN Dusk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HN Dusk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		035053762C84F79500BA996C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		035053782C84F79500BA996C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0350537B2C84F79500BA996C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0350537E2C84F79500BA996C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		035053802C84F79500BA996C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		035053852C84F79500BA996C /* HN Dusk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HN Dusk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		035053872C84F79500BA996C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0350538A2C84F79500BA996C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0350538C2C84F79500BA996C /* HN Dusk.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "HN Dusk.entitlements"; sourceTree = "<group>"; };
+		035053912C84F79500BA996C /* HN Dusk Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "HN Dusk Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		035053962C84F79500BA996C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0350539B2C84F79500BA996C /* HN Dusk Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "HN Dusk Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		035053A02C84F79500BA996C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		035053A12C84F79500BA996C /* HN Dusk.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "HN Dusk.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		035053702C84F79500BA996C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		035053822C84F79500BA996C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0350538E2C84F79500BA996C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		035053982C84F79500BA996C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		035053562C84F79300BA996C = {
+			isa = PBXGroup;
+			children = (
+				0350535B2C84F79300BA996C /* Shared (App) */,
+				035053642C84F79500BA996C /* Shared (Extension) */,
+				035053752C84F79500BA996C /* iOS (App) */,
+				035053862C84F79500BA996C /* macOS (App) */,
+				035053952C84F79500BA996C /* iOS (Extension) */,
+				0350539F2C84F79500BA996C /* macOS (Extension) */,
+				035053742C84F79500BA996C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0350535B2C84F79300BA996C /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				035053622C84F79300BA996C /* ViewController.swift */,
+				035053632C84F79500BA996C /* Assets.xcassets */,
+				0350535C2C84F79300BA996C /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		0350535C2C84F79300BA996C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0350535D2C84F79300BA996C /* Main.html */,
+				0350535F2C84F79300BA996C /* Icon.png */,
+				035053602C84F79300BA996C /* Style.css */,
+				035053612C84F79300BA996C /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		035053642C84F79500BA996C /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				035053652C84F79500BA996C /* SafariWebExtensionHandler.swift */,
+				035053662C84F79500BA996C /* Resources */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		035053662C84F79500BA996C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				035053672C84F79500BA996C /* _locales */,
+				035053682C84F79500BA996C /* images */,
+				035053692C84F79500BA996C /* manifest.json */,
+				0350536A2C84F79500BA996C /* background.js */,
+				0350536B2C84F79500BA996C /* content.js */,
+				0350536C2C84F79500BA996C /* popup.html */,
+				0350536D2C84F79500BA996C /* popup.css */,
+				0350536E2C84F79500BA996C /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		035053742C84F79500BA996C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				035053732C84F79500BA996C /* HN Dusk.app */,
+				035053852C84F79500BA996C /* HN Dusk.app */,
+				035053912C84F79500BA996C /* HN Dusk Extension.appex */,
+				0350539B2C84F79500BA996C /* HN Dusk Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		035053752C84F79500BA996C /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				035053762C84F79500BA996C /* AppDelegate.swift */,
+				035053782C84F79500BA996C /* SceneDelegate.swift */,
+				0350537A2C84F79500BA996C /* LaunchScreen.storyboard */,
+				0350537D2C84F79500BA996C /* Main.storyboard */,
+				035053802C84F79500BA996C /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		035053862C84F79500BA996C /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				035053872C84F79500BA996C /* AppDelegate.swift */,
+				035053892C84F79500BA996C /* Main.storyboard */,
+				0350538C2C84F79500BA996C /* HN Dusk.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		035053952C84F79500BA996C /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				035053962C84F79500BA996C /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		0350539F2C84F79500BA996C /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				035053A02C84F79500BA996C /* Info.plist */,
+				035053A12C84F79500BA996C /* HN Dusk.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		035053722C84F79500BA996C /* HN Dusk (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 035053C62C84F79500BA996C /* Build configuration list for PBXNativeTarget "HN Dusk (iOS)" */;
+			buildPhases = (
+				0350536F2C84F79500BA996C /* Sources */,
+				035053702C84F79500BA996C /* Frameworks */,
+				035053712C84F79500BA996C /* Resources */,
+				035053C52C84F79500BA996C /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				035053942C84F79500BA996C /* PBXTargetDependency */,
+			);
+			name = "HN Dusk (iOS)";
+			productName = "HN Dusk (iOS)";
+			productReference = 035053732C84F79500BA996C /* HN Dusk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		035053842C84F79500BA996C /* HN Dusk (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 035053CD2C84F79500BA996C /* Build configuration list for PBXNativeTarget "HN Dusk (macOS)" */;
+			buildPhases = (
+				035053812C84F79500BA996C /* Sources */,
+				035053822C84F79500BA996C /* Frameworks */,
+				035053832C84F79500BA996C /* Resources */,
+				035053CC2C84F79500BA996C /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0350539E2C84F79500BA996C /* PBXTargetDependency */,
+			);
+			name = "HN Dusk (macOS)";
+			productName = "HN Dusk (macOS)";
+			productReference = 035053852C84F79500BA996C /* HN Dusk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		035053902C84F79500BA996C /* HN Dusk Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 035053C22C84F79500BA996C /* Build configuration list for PBXNativeTarget "HN Dusk Extension (iOS)" */;
+			buildPhases = (
+				0350538D2C84F79500BA996C /* Sources */,
+				0350538E2C84F79500BA996C /* Frameworks */,
+				0350538F2C84F79500BA996C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HN Dusk Extension (iOS)";
+			productName = "HN Dusk Extension (iOS)";
+			productReference = 035053912C84F79500BA996C /* HN Dusk Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		0350539A2C84F79500BA996C /* HN Dusk Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 035053C92C84F79500BA996C /* Build configuration list for PBXNativeTarget "HN Dusk Extension (macOS)" */;
+			buildPhases = (
+				035053972C84F79500BA996C /* Sources */,
+				035053982C84F79500BA996C /* Frameworks */,
+				035053992C84F79500BA996C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HN Dusk Extension (macOS)";
+			productName = "HN Dusk Extension (macOS)";
+			productReference = 0350539B2C84F79500BA996C /* HN Dusk Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		035053572C84F79300BA996C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					035053722C84F79500BA996C = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					035053842C84F79500BA996C = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					035053902C84F79500BA996C = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					0350539A2C84F79500BA996C = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 0350535A2C84F79300BA996C /* Build configuration list for PBXProject "HN Dusk" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 035053562C84F79300BA996C;
+			productRefGroup = 035053742C84F79500BA996C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				035053722C84F79500BA996C /* HN Dusk (iOS) */,
+				035053842C84F79500BA996C /* HN Dusk (macOS) */,
+				035053902C84F79500BA996C /* HN Dusk Extension (iOS) */,
+				0350539A2C84F79500BA996C /* HN Dusk Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		035053712C84F79500BA996C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				035053A42C84F79500BA996C /* Icon.png in Resources */,
+				0350537C2C84F79500BA996C /* Base in Resources */,
+				035053A22C84F79500BA996C /* Base in Resources */,
+				035053A82C84F79500BA996C /* Script.js in Resources */,
+				035053AC2C84F79500BA996C /* Assets.xcassets in Resources */,
+				0350537F2C84F79500BA996C /* Base in Resources */,
+				035053A62C84F79500BA996C /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		035053832C84F79500BA996C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				035053A52C84F79500BA996C /* Icon.png in Resources */,
+				035053A72C84F79500BA996C /* Style.css in Resources */,
+				0350538B2C84F79500BA996C /* Base in Resources */,
+				035053A92C84F79500BA996C /* Script.js in Resources */,
+				035053AD2C84F79500BA996C /* Assets.xcassets in Resources */,
+				035053A32C84F79500BA996C /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0350538F2C84F79500BA996C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				035053B62C84F79500BA996C /* background.js in Resources */,
+				035053BC2C84F79500BA996C /* popup.css in Resources */,
+				035053BA2C84F79500BA996C /* popup.html in Resources */,
+				035053B22C84F79500BA996C /* images in Resources */,
+				035053B42C84F79500BA996C /* manifest.json in Resources */,
+				035053B02C84F79500BA996C /* _locales in Resources */,
+				035053B82C84F79500BA996C /* content.js in Resources */,
+				035053BE2C84F79500BA996C /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		035053992C84F79500BA996C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				035053B72C84F79500BA996C /* background.js in Resources */,
+				035053BD2C84F79500BA996C /* popup.css in Resources */,
+				035053BB2C84F79500BA996C /* popup.html in Resources */,
+				035053B32C84F79500BA996C /* images in Resources */,
+				035053B52C84F79500BA996C /* manifest.json in Resources */,
+				035053B12C84F79500BA996C /* _locales in Resources */,
+				035053B92C84F79500BA996C /* content.js in Resources */,
+				035053BF2C84F79500BA996C /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0350536F2C84F79500BA996C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				035053AA2C84F79500BA996C /* ViewController.swift in Sources */,
+				035053772C84F79500BA996C /* AppDelegate.swift in Sources */,
+				035053792C84F79500BA996C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		035053812C84F79500BA996C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				035053AB2C84F79500BA996C /* ViewController.swift in Sources */,
+				035053882C84F79500BA996C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0350538D2C84F79500BA996C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				035053AE2C84F79500BA996C /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		035053972C84F79500BA996C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				035053AF2C84F79500BA996C /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		035053942C84F79500BA996C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 035053902C84F79500BA996C /* HN Dusk Extension (iOS) */;
+			targetProxy = 035053932C84F79500BA996C /* PBXContainerItemProxy */;
+		};
+		0350539E2C84F79500BA996C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0350539A2C84F79500BA996C /* HN Dusk Extension (macOS) */;
+			targetProxy = 0350539D2C84F79500BA996C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0350535D2C84F79300BA996C /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0350535E2C84F79300BA996C /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		0350537A2C84F79500BA996C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0350537B2C84F79500BA996C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0350537D2C84F79500BA996C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0350537E2C84F79500BA996C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		035053892C84F79500BA996C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0350538A2C84F79500BA996C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		035053C02C84F79500BA996C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		035053C12C84F79500BA996C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		035053C32C84F79500BA996C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H8GSU3M27D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "HN Dusk Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smc.HN-Dusk.Extension";
+				PRODUCT_NAME = "HN Dusk Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		035053C42C84F79500BA996C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H8GSU3M27D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "HN Dusk Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smc.HN-Dusk.Extension";
+				PRODUCT_NAME = "HN Dusk Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		035053C72C84F79500BA996C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H8GSU3M27D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "HN Dusk";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smc.HN-Dusk";
+				PRODUCT_NAME = "HN Dusk";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		035053C82C84F79500BA996C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H8GSU3M27D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "HN Dusk";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smc.HN-Dusk";
+				PRODUCT_NAME = "HN Dusk";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		035053CA2C84F79500BA996C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/HN Dusk.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H8GSU3M27D;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "HN Dusk Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smc.HN-Dusk.Extension";
+				PRODUCT_NAME = "HN Dusk Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		035053CB2C84F79500BA996C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/HN Dusk.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H8GSU3M27D;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "HN Dusk Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smc.HN-Dusk.Extension";
+				PRODUCT_NAME = "HN Dusk Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		035053CE2C84F79500BA996C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/HN Dusk.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H8GSU3M27D;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "HN Dusk";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smc.HN-Dusk";
+				PRODUCT_NAME = "HN Dusk";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		035053CF2C84F79500BA996C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/HN Dusk.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H8GSU3M27D;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "HN Dusk";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smc.HN-Dusk";
+				PRODUCT_NAME = "HN Dusk";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0350535A2C84F79300BA996C /* Build configuration list for PBXProject "HN Dusk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				035053C02C84F79500BA996C /* Debug */,
+				035053C12C84F79500BA996C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		035053C22C84F79500BA996C /* Build configuration list for PBXNativeTarget "HN Dusk Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				035053C32C84F79500BA996C /* Debug */,
+				035053C42C84F79500BA996C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		035053C62C84F79500BA996C /* Build configuration list for PBXNativeTarget "HN Dusk (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				035053C72C84F79500BA996C /* Debug */,
+				035053C82C84F79500BA996C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		035053C92C84F79500BA996C /* Build configuration list for PBXNativeTarget "HN Dusk Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				035053CA2C84F79500BA996C /* Debug */,
+				035053CB2C84F79500BA996C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		035053CD2C84F79500BA996C /* Build configuration list for PBXNativeTarget "HN Dusk (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				035053CE2C84F79500BA996C /* Debug */,
+				035053CF2C84F79500BA996C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 035053572C84F79300BA996C /* Project object */;
+}
