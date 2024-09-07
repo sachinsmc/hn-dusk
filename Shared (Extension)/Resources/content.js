@@ -9,9 +9,9 @@ function injectDarkModeCSS() {
     document.head.appendChild(link);
 }
 
-console.log("Content script running...", browser.runtime.getURL("darkmode.css"));
-console.log("Hostname: ", window.location.hostname);
-console.log("URL: ", window.location.href);
+//console.log("Content script running...", browser.runtime.getURL("darkmode.css"));
+//console.log("Hostname: ", window.location.hostname);
+//console.log("URL: ", window.location.href);
 
 // Inject the dark mode CSS when the page loads
 if (window.location.hostname === "news.ycombinator.com") {
