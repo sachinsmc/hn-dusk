@@ -39,12 +39,6 @@
 		035053B72C84F79500BA996C /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 0350536A2C84F79500BA996C /* background.js */; };
 		035053B82C84F79500BA996C /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 0350536B2C84F79500BA996C /* content.js */; };
 		035053B92C84F79500BA996C /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 0350536B2C84F79500BA996C /* content.js */; };
-		035053BA2C84F79500BA996C /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 0350536C2C84F79500BA996C /* popup.html */; };
-		035053BB2C84F79500BA996C /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 0350536C2C84F79500BA996C /* popup.html */; };
-		035053BC2C84F79500BA996C /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 0350536D2C84F79500BA996C /* popup.css */; };
-		035053BD2C84F79500BA996C /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 0350536D2C84F79500BA996C /* popup.css */; };
-		035053BE2C84F79500BA996C /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 0350536E2C84F79500BA996C /* popup.js */; };
-		035053BF2C84F79500BA996C /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 0350536E2C84F79500BA996C /* popup.js */; };
 		035053D12C8CB30C00BA996C /* darkmode.css in Resources */ = {isa = PBXBuildFile; fileRef = 035053D02C8CB30C00BA996C /* darkmode.css */; };
 		035053D22C8CB30C00BA996C /* darkmode.css in Resources */ = {isa = PBXBuildFile; fileRef = 035053D02C8CB30C00BA996C /* darkmode.css */; };
 /* End PBXBuildFile section */
@@ -104,9 +98,6 @@
 		035053692C84F79500BA996C /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
 		0350536A2C84F79500BA996C /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
 		0350536B2C84F79500BA996C /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
-		0350536C2C84F79500BA996C /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
-		0350536D2C84F79500BA996C /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
-		0350536E2C84F79500BA996C /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
 		035053732C84F79500BA996C /* HN Dusk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HN Dusk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		035053762C84F79500BA996C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		035053782C84F79500BA996C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -209,9 +200,6 @@
 				035053692C84F79500BA996C /* manifest.json */,
 				0350536A2C84F79500BA996C /* background.js */,
 				0350536B2C84F79500BA996C /* content.js */,
-				0350536C2C84F79500BA996C /* popup.html */,
-				0350536D2C84F79500BA996C /* popup.css */,
-				0350536E2C84F79500BA996C /* popup.js */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -420,13 +408,10 @@
 			files = (
 				035053D12C8CB30C00BA996C /* darkmode.css in Resources */,
 				035053B62C84F79500BA996C /* background.js in Resources */,
-				035053BC2C84F79500BA996C /* popup.css in Resources */,
-				035053BA2C84F79500BA996C /* popup.html in Resources */,
 				035053B22C84F79500BA996C /* images in Resources */,
 				035053B42C84F79500BA996C /* manifest.json in Resources */,
 				035053B02C84F79500BA996C /* _locales in Resources */,
 				035053B82C84F79500BA996C /* content.js in Resources */,
-				035053BE2C84F79500BA996C /* popup.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,13 +421,10 @@
 			files = (
 				035053D22C8CB30C00BA996C /* darkmode.css in Resources */,
 				035053B72C84F79500BA996C /* background.js in Resources */,
-				035053BD2C84F79500BA996C /* popup.css in Resources */,
-				035053BB2C84F79500BA996C /* popup.html in Resources */,
 				035053B32C84F79500BA996C /* images in Resources */,
 				035053B52C84F79500BA996C /* manifest.json in Resources */,
 				035053B12C84F79500BA996C /* _locales in Resources */,
 				035053B92C84F79500BA996C /* content.js in Resources */,
-				035053BF2C84F79500BA996C /* popup.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
