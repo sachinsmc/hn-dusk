@@ -45,6 +45,8 @@
 		035053BD2C84F79500BA996C /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 0350536D2C84F79500BA996C /* popup.css */; };
 		035053BE2C84F79500BA996C /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 0350536E2C84F79500BA996C /* popup.js */; };
 		035053BF2C84F79500BA996C /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 0350536E2C84F79500BA996C /* popup.js */; };
+		035053D12C8CB30C00BA996C /* darkmode.css in Resources */ = {isa = PBXBuildFile; fileRef = 035053D02C8CB30C00BA996C /* darkmode.css */; };
+		035053D22C8CB30C00BA996C /* darkmode.css in Resources */ = {isa = PBXBuildFile; fileRef = 035053D02C8CB30C00BA996C /* darkmode.css */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -120,6 +122,7 @@
 		0350539B2C84F79500BA996C /* HN Dusk Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "HN Dusk Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		035053A02C84F79500BA996C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		035053A12C84F79500BA996C /* HN Dusk.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "HN Dusk.entitlements"; sourceTree = "<group>"; };
+		035053D02C8CB30C00BA996C /* darkmode.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = darkmode.css; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,6 +203,7 @@
 		035053662C84F79500BA996C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				035053D02C8CB30C00BA996C /* darkmode.css */,
 				035053672C84F79500BA996C /* _locales */,
 				035053682C84F79500BA996C /* images */,
 				035053692C84F79500BA996C /* manifest.json */,
@@ -414,6 +418,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				035053D12C8CB30C00BA996C /* darkmode.css in Resources */,
 				035053B62C84F79500BA996C /* background.js in Resources */,
 				035053BC2C84F79500BA996C /* popup.css in Resources */,
 				035053BA2C84F79500BA996C /* popup.html in Resources */,
@@ -429,6 +434,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				035053D22C8CB30C00BA996C /* darkmode.css in Resources */,
 				035053B72C84F79500BA996C /* background.js in Resources */,
 				035053BD2C84F79500BA996C /* popup.css in Resources */,
 				035053BB2C84F79500BA996C /* popup.html in Resources */,

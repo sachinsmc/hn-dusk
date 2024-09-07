@@ -1,0 +1,16 @@
+/* darkmode.css */
+html {
+    filter: invert(100%) hue-rotate(180deg);
+}
+
+body {
+    background: white;
+}
+
+div.toptext {
+    color: black;
+}
+
+#hnmain td[bgcolor="#000000"] {
+    /* Add any specific styles if needed */
+}
