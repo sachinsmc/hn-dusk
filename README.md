@@ -45,8 +45,8 @@ Once the extension is enabled, it will automatically apply a dark theme to Hacke
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/hndusk.git
-    cd hndusk
+    git clone https://github.com/sachinsmc/hn-dusk
+    cd hn-dusk
     ```
 
 2. Open the Xcode project:
